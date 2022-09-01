@@ -1,0 +1,33 @@
+import React, { Component } from 'react'
+const axios = require('axios').default;
+const staticUser=  {
+ 
+    studentName: "abc",
+    studentId: "bc190202899",
+    timeStamp: "10.30pm",
+  }
+
+
+
+const  gettingUserData=(previousData,setArray)=>{
+    // axios.get('/user?ID=12345')
+    // .then(function (response) {
+    //   // handle success set\
+    //   setTimeout(()=>{
+    // },2000)
+    // setArray([...previousData,{...staticUser}])
+    //   console.log(previousData,"<=-=");
+    // })
+    // .catch(function (error) {
+    //   // handle error
+    //   console.log(error);
+    // })
+    return 
+}
+export default gettingUserData
+
+
+
+
+
+  
